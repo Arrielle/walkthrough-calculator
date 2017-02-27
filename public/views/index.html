@@ -1,23 +1,51 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <script src="./vendors/jquery.js" charset="utf-8"></script>
-    <script src="./scripts/client.js" charset="utf-8"></script>
-    <title>Calculator Walkthrough</title>
-  </head>
-  <body>
-    <h1>Calculator Walkthrough</h1>
-      <input id='num0' type='number'/>
-      <input id='num1' type='number'/>
-      <button class='operatorButton' data-operator='add'>+</button>
-      <button class='operatorButton' data-operator='subtract'>-</button>
-      <button class='operatorButton' data-operator='multiply'>*</button>
-      <button class='operatorButton' data-operator='divide'>/</button>
-      <button id='clearButton'>C</button>
-      <p id='outputP'>
-        output goes here
-      </p>
+<head>
+  <meta charset="utf-8">
+  <script src="./vendors/jquery.js" charset="utf-8"></script>
+  <script src="./scripts/client.js" charset="utf-8"></script>
+  <title>Calculator Walkthrough</title>
+</head>
+<body>
+  <h1>Calculator Walkthrough</h1>
+  <p>
+    <button class='numberButton' data-value='7'>7</button>
+    <button class='numberButton' data-value='8'>8</button>
+    <button class='numberButton' data-value='9'>9</button>
+    <button class='operatorButton' data-operator='multiply'>*</button>
+  </p>
+  <p>
+    <button class='numberButton' data-value='4'>4</button>
+    <button class='numberButton' data-value='5'>5</button>
+    <button class='numberButton' data-value='6'>6</button>
+    <button class='operatorButton' data-operator='subtract'>-</button>
+  </p>
+  <p>
+    <button class='numberButton' data-value='1'>1</button>
+    <button class='numberButton' data-value='2'>2</button>
+    <button class='numberButton' data-value='3'>3</button>
+    <button class='operatorButton' data-operator='add'>+</button>
+  </p>
+  <p>
+    <button class='numberButton' data-value='0'>0</button>
+    <button class='numberButton' data-value='.'>.</button>
+    <button id='clearButton'>C</button>
+    <button class='operatorButton' data-operator='divide'>/</button>
+  </p>
+  <p>
+    <button id='equalsButton'>=</button>
+  </p>
 
-  </body>
+
+
+
+
+
+
+
+  <p id='outputP'>
+    output goes here
+  </p>
+
+</body>
 </html>
